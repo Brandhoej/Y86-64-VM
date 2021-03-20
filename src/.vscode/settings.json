@@ -1,0 +1,19 @@
+{
+    "files.associations": {
+        "compare": "cpp",
+        "cstddef": "cpp",
+        "limits": "cpp",
+        "memory": "cpp",
+        "system_error": "cpp",
+        "type_traits": "cpp",
+        "xiosbase": "cpp",
+        "xlocale": "cpp",
+        "xutility": "cpp",
+        "ios": "c",
+        "cmath": "cpp",
+        "value.h": "c",
+        "common.h": "c",
+        "xlocnum": "c",
+        "xtr1common": "c"
+    }
+}
