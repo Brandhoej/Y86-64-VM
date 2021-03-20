@@ -1,0 +1,21 @@
+ + Better printing with rsp and rbp
+ + Better memory printing with columns
+ + Better register printing
+ + Better flag printing
+ + Print staus code
+ + Print PC
+ + Branch instructions
+ + Move the program inside the memory
+ + Make PC counter a QuadWord value (Not pointer to chunk opCode)
+ + High and low memory -> https://www.cs.uaf.edu/2010/fall/cs301/lecture/10_06_the_stack.html check
+ + Instead of M8 by default caused by using Quads then i want byte addressable memory Where i can use M1 M8
+ + Stack like printing for the stack (like the memory and register)
+ + Instructions
+ - Make registers byte addressable instead of using quads.
+ - Memory profilling
+ + Document caller and callee registers
+ - Make printing row mayor instead of column mayor for both registers and memory. 
+    When printing 16 reg there with 2 columns then there are two empties
+    in the same leftmost column this could instead be done by removing a row.
+ - Dynamic array memory
+ - Verify with CUTEST

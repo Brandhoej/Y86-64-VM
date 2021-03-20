@@ -14,6 +14,10 @@
         "value.h": "c",
         "common.h": "c",
         "xlocnum": "c",
-        "xtr1common": "c"
+        "xtr1common": "c",
+        "stdbool.h": "c",
+        "debug.h": "c",
+        "vm.h": "c",
+        "stddef.h": "c"
     }
 }

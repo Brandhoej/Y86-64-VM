@@ -31,6 +31,13 @@ void* reallocate(void* pointer, size_t oldSize, size_t newSize) {
      * block of memory of the desired size, copies over the old bytes,
      * frees the old block, and then returns a pointer to the new block. */
     void* result = realloc(pointer, newSize);
-    if (result == NULL) exit(1);
+    if (result == NULL) {
+        exit(1);
+    }
+
+    /* We assume the need of reseting all bits when creating a new array */
+    if (oldSize == 0) {
+        result = memset(result, 0, newSize);
+    }
     return result;
 }

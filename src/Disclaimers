@@ -1,0 +1,5 @@
+ - Y86-64 documentation is not consistent on how instruction should be executed.
+ - I have chosen to use big-endian even though the memory layout of Y86-64 is little endian.
+    I see this as a minor detail. This will probably be fixed when the registers become byte addressable.
+ - The insturction execution steps are constructed on the basis of https://w3.cs.jmu.edu/lam2mo/cs261_2018_08/files/y86-isa.pdf
+ - No unit tests have been done to ensure the correctness. CUTEST will probably be used in the future.

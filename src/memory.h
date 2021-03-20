@@ -13,6 +13,9 @@
 #define FREE_ARRAY(type, pointer, oldCount) \
     reallocate(pointer, sizeof(type) * (oldCount), 0)
 
+#define INIT_ARRAY(type, pointer, capacity) \
+    GROW_ARRAY(type, pointer, 0, capacity) \
+
 void* reallocate(void* pointer, size_t oldSize, size_t newSize);
 
 #endif
