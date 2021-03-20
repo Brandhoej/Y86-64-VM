@@ -6,7 +6,6 @@
 #include "common.h"
 #include "vm.h"
 
-/* int main(int argc, const char* argv[]) */
 int main(int argc, const char* argv[]) {
     VM vm;
     initVM(&vm);
